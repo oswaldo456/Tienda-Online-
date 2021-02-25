@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 app.get('/Categorias', (req, res) => {
-return res.send('Este servicio muestra las categorias');
+return res.send('Este servicio mostrara las categorias');
 });
 app.get('/DetallesOrdenes', (req, res) => {
 return res.send('Este servicio muestra la informacion de la orden');
