@@ -2,7 +2,7 @@ const {​​​​ Sequelize, DataTypes, Model }​​​​ = require('sequeli
 const sequelize = new Sequelize('sqlite::memory');
 class DetallesOrdenes extends Model {​​​​}​​​​
 DetallesOrdenes.ini({​​​​
-    ID_DetallesOrdenes:{​​​​
+    ID_Detalles_Ordenes:{​​​​
         type: DataTypes.INT,
         allowNull:True
     }​​​​,
