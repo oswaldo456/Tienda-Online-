@@ -8,7 +8,7 @@ app.get('/DetallesOrdenes', (req, res) => {
 return res.send('Este servicio muestra la informacion de la orden');
 });
 app.get('/Productos', (req, res) => {
-return res.send('Este servicio muestra los productos');
+return res.send('Este servicio muestra todos los productos');
 });
 app.post('/Crear cuenta', (req, res) => {
 return res.send('Servicio de crear cuenta');
