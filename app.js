@@ -14,7 +14,7 @@ app.post('/Crear cuenta', (req, res) => {
 return res.send('Servicio de crear cuenta');
 });
 app.post('/Crear ordenes', (req, res) => {
-return res.send('Este servicio crea ordenes');
+return res.send('Este servicio creara ordenes');
 });
 app.delete('/Borrar orden', (req, res) => {
 return res.send('Este servicio elimina las ordenes');       
