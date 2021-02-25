@@ -20,5 +20,5 @@ app.delete('/Borrar orden', (req, res) => {
 return res.send('Este servicio elimina las ordenes');       
 });
 app.put('/', (req, res) => {
-return res.send('Received a PUT HTTP method');
+return res.send('Recibe el put');
 });
