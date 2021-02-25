@@ -6,7 +6,7 @@ Usuario.ini({​​​​
         type: DataTypes.STRING,
         allowNull:True
     }​​​​,
-    primerApellido:{​​​​
+    primerApellido:{​​​​//Aqui se pondra el Apellido Materno
         type: DataTypes.STRING,
         allowNull:True
     }​​​​,
