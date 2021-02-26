@@ -1,6 +1,7 @@
 const {​​​​ Sequelize, DataTypes, Model }​​​​ = require('sequelize');
 const sequelize = new Sequelize('sqlite::memory');
 class Direcciones extends Model {​​​​}​​​​
+//Demostracion de como se ocupa un branch 
 Direcciones.ini({​​​​
     ID_Direcciones:{​​​​
         type: DataTypes.INT,
