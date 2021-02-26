@@ -10,6 +10,7 @@ Categorias.ini({​​​​
         type: DataTypes.STRING,
         allowNull:True
     }​​​​
+    //agregue algo
 }​​​​,{​​​​
 sequelize, 
 modelName:'Categorias'
