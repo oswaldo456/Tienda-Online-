@@ -10,7 +10,7 @@ Usuario.ini({​​​​
         type: DataTypes.STRING,
         allowNull:True
     }​​​​,
-    segundoApellido:{​​​​
+    segundoApellido:{//Segundo apellido​​​​
         type: DataTypes.STRING,
         allowNull:True
     }​​​​,
