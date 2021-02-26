@@ -30,3 +30,4 @@ DetallesOrdenes.ini({​​​​
 sequelize, 
 modelName:'DetallesOrdenes'
 }​​​​);
+//modifique la llave foránea de detalles ordenes

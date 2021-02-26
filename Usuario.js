@@ -6,11 +6,11 @@ Usuario.ini({​​​​
         type: DataTypes.STRING,
         allowNull:True
     }​​​​,
-    primerApellido:{​​​​//Aqui se pondra el Apellido Materno
+    primerApellido:{​​​​//Aqui se colocará el Apellido Materno
         type: DataTypes.STRING,
         allowNull:True
     }​​​​,
-    segundoApellido:{​​​​
+    segundoApellido:{//Segundo apellido​​​​
         type: DataTypes.STRING,
         allowNull:True
     }​​​​,
