@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario</title>
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+    <hr>
+    <h1>Lista de usuarios</h1>
+    <hr>
+    <div>
+        <div class="row" id="usuarios">
+        </div>
+    </div>
+</div>
+<div id="editusuarioModal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-apellido">Edit usuario</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="editForm" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">nombre</label>
+                        <input class="form-control" name="nombre" id="nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido">apellido</label>
+                        <input class="form-control" name="apellido" id="apellido">
+                    </div>
+                    <div class="form-group">
+                        <label for="nickname">nickname</label>
+                        <input class="form-control" name="nickname" id="nickname">
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">correo</label>
+                        <input class="form-control" name="correo" id="correo">
+                    </div>
+                    <div class="form-group">
+                        <label for="pass">pass</label>
+                        <input class="form-control" name="pass" id="pass">
+                    </div>
+                   
+                   
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Our JS file-->
+<script src="lista-usuario.js"></script>
+</body>
+</html>
